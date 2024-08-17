@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Mobile</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+</style>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="images/car.jpg" alt="Car Icon" class="car-icon">
+            <span class="navbar-title">Auto Mobile</span>
+        </div>
+        <div class="navbar-center">
+            <a href="#home">HOME</a>
+            <div class="dropdown">
+                <a href="#categories">CATEGORIES</a>
+                <div class="dropdown-content">
+                    <a href="#petrolcar">Petrol Car</a>
+                    <a href="#electriccar">Electric Car</a>
+                </div>
+            </div>
+            <a href="#about-us">ABOUT US</a>
+            <a href="#contact-us">CONTACT US</a>
+            <div class="dropdown">
+                <a href="#account">ACCOUNT <span class="account-icon">+</span></a>
+                <div class="dropdown-content">
+                    <a href="#login">Login</a>
+                    <a href="#signup">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <div class="icon bell-icon">
+                <img src="images/bell.jpg" alt="Bell Icon">
+            </div>
+            <div class="icon cart-icon">
+                <img src="images/car-icon.jpg" alt="Cart Icon">
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="content">
+        <h1>Auto Mobile Home For Classic Drives</h1>
+        <h2 class="subheading">Best Selection Of Drives Awaits You....</h2>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </div>
+
+
+    <div class="about-us">
+        <h1>About Us</h1>
+        <div class="content-flex">
+            <div class="image-block">
+                <img src="images/car-pic2.jpg" alt="Car Image">
+            </div>
+            <div class="text-block">
+                <h2>Auto Mobiles</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil ipsum aliquam pariatur quae eos,
+                    velit error perferendis voluptatibus cupiditate ut laudantium, aperiam reprehenderit dolores
+                    obcaecati officia? Totam facilis magni dolorem exercitationem pariatur, eaque dolores fuga error
+                    molestias beatae vitae debitis cupiditate deserunt itaque harum dolorum alias modi iure fugiat
+                    reiciendis. Suscipit a optio ut nostrum cum porro aspernatur quasi, pariatur inventore earum rerum,
+                    architecto reprehenderit! Neque deserunt atque saepe fugit temporibus, magnam ratione rem dicta
+                    porro amet mollitia quibusdam?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rate-us">
+        <h1>Rate Us</h1>
+        <div class="content-boxes">
+            <div class="box">
+                <div class="circle">
+                    <img src="images/person.png" alt="Person 1">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum autem, laborum quis tenetur
+                    cumque?.</p>
+                <div class="stars">
+                    ★★★☆☆ <!-- 4 full stars and 1 half star -->
+                </div>
+                <button class="rate-button">
+                    👍 Rate Now
+                </button>
+            </div>
+            <div class="box">
+                <div class="circle">
+                    <img src="images/person.png" alt="Person 2">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum autem, laborum quis tenetur
+                    cumque?.</p>
+                <div class="stars">
+                    ★★★★☆ <!-- 4 full stars and 1 half star -->
+                </div>
+                <button class="rate-button">
+                    👍 Rate Now
+                </button>
+            </div>
+            <div class="box large-box">
+                <!-- Content for the large box -->
+                <h2 style="color: aliceblue;">Send Us Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone No:</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                    <div class="form-buttons">
+                        <button type="reset" class="reset-button">Reset</button>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="categories-page">
+        <h1>Categories</h1>
+        <div class="mini-nav">
+            <a href="#">Petrol Car</a>
+            <a href="#">Electric Car</a>
+        </div>
+        <div class="car-boxes">
+            <div class="car-box">
+                <img src="images/car1.jpg" alt="Car 1">
+                <h3>Car Model 1</h3>
+                <p class="price">$20,000</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="car-box">
+                <img src="images/car1.jpg" alt="Car 2">
+                <h3>Car Model 2</h3>
+                <p class="price">$25,000</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="car-box">
+                <img src="images/car1.jpg" alt="Car 3">
+                <h3>Car Model 3</h3>
+                <p class="price">$30,000</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="auto-mobiles-page">
+        <div class="box2">
+            <h2 class="title">Auto Mobiles</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus.</p>
+            <button class="learn-more-button">Learn More</button>
+        </div>
+        <!-- Add three more boxes as needed -->
+        <div class="box2">
+            <h2 class="contact-title">Contact</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <div class="contact-details">
+                        <p>+1 234 567 890</p>
+                        <p>+1 234 567 891</p>
+                        <p>+1 234 567 892</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <div class="contact-details">
+                        <p>example@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <h2 class="links-title">Other Links</h2>
+            <div class="links-list">
+                <a href="#" class="link-item">Home</a>
+                <a href="#" class="link-item">Categories</a>
+                <a href="#" class="link-item">About Us</a>
+                <a href="#" class="link-item">Contact Us</a>
+            </div>
+        </div>
+        <div class="box2">
+            <h2 class="social-title">Social Links</h2>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
